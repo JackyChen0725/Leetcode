@@ -2,7 +2,7 @@
 Link: https://leetcode.com/problems/happy-number/
 
 Solution: Use a set to track previously seen sums to detect cycles.
-    Time Complexity: O(log n). The loop in getSum runs in O(logn) time since the number of digits in n is log n.
+    Time Complexity: O(log n). The loop in getSum runs in O(log n) time since the number of digits in n is log n.
     Space Complexity: O(log n). Variables used in getSum are O(log n) as well.
 """
 
